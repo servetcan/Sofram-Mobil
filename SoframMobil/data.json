@@ -1,0 +1,205 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Pizza",
+      "icon": "🍕",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=300&fit=crop"
+    },
+    {
+      "id": 2,
+      "name": "Burger",
+      "icon": "🍔",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop"
+    },
+    {
+      "id": 3,
+      "name": "Döner",
+      "icon": "🌯",
+      "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=400&h=300&fit=crop"
+    },
+    {
+      "id": 4,
+      "name": "Tatlı",
+      "icon": "🍰",
+      "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400&h=300&fit=crop"
+    },
+    {
+      "id": 5,
+      "name": "İçecek",
+      "icon": "🥤",
+      "image": "https://images.unsplash.com/photo-1554866585-cd94860890b7?w=400&h=300&fit=crop"
+    },
+    {
+      "id": 6,
+      "name": "Kahvaltı",
+      "icon": "🥐",
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=400&h=300&fit=crop"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "name": "Margherita Pizza",
+      "description": "Domates sosu, mozzarella peyniri ve taze fesleğen ile hazırlanan klasik İtalyan pizzası.",
+      "price": 89.90,
+      "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&h=300&fit=crop",
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "name": "Pepperoni Pizza",
+      "description": "Zengin domates sosu, mozzarella peyniri ve bol pepperoni ile.",
+      "price": 109.90,
+      "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=400&h=300&fit=crop",
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "name": "Karışık Pizza",
+      "description": "Sucuk, mantar, mısır, zeytin ve mozzarella peyniri ile dolu nefis pizza.",
+      "price": 119.90,
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=300&fit=crop",
+      "rating": 4.6
+    },
+    {
+      "id": 4,
+      "categoryId": 2,
+      "name": "Klasik Burger",
+      "description": "100% dana eti, marul, domates, soğan ve özel sos ile.",
+      "price": 79.90,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop",
+      "rating": 4.4
+    },
+    {
+      "id": 5,
+      "categoryId": 2,
+      "name": "Cheese Burger",
+      "description": "Çift köfte, çift cheddar peyniri, marul, domates ve özel sos.",
+      "price": 94.90,
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=400&h=300&fit=crop",
+      "rating": 4.8
+    },
+    {
+      "id": 6,
+      "categoryId": 2,
+      "name": "Chicken Burger",
+      "description": "Tavuk göğsü, marul, domates, soğan ve mayonez ile.",
+      "price": 69.90,
+      "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=400&h=300&fit=crop",
+      "rating": 4.3
+    },
+    {
+      "id": 7,
+      "categoryId": 3,
+      "name": "Tavuk Döner",
+      "description": "Taze tavuk döner, marul, domates, soğan ve özel sos ile.",
+      "price": 59.90,
+      "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=400&h=300&fit=crop",
+      "rating": 4.5
+    },
+    {
+      "id": 8,
+      "categoryId": 3,
+      "name": "Et Döner",
+      "description": "Taze et döner, marul, domates, soğan ve özel sos ile.",
+      "price": 69.90,
+      "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?q=80&w=1000&auto=format&fit=crop",
+      "rating": 4.6
+    },
+    {
+      "id": 9,
+      "categoryId": 3,
+      "name": "Döner Tabağı",
+      "description": "Döner, pilav, patates ve salata ile servis edilir.",
+      "price": 89.90,
+      "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=400&h=300&fit=crop",
+      "rating": 4.7
+    },
+    {
+      "id": 10,
+      "categoryId": 4,
+      "name": "Çikolatalı Pasta",
+      "description": "Zengin çikolata kreması ve çikolata parçacıkları ile.",
+      "price": 49.90,
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop",
+      "rating": 4.8
+    },
+    {
+      "id": 11,
+      "categoryId": 4,
+      "name": "Sufle",
+      "description": "Sıcak çikolatalı sufle, vanilyalı dondurma ile.",
+      "price": 54.90,
+      "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400&h=300&fit=crop",
+      "rating": 4.9
+    },
+    {
+      "id": 12,
+      "categoryId": 4,
+      "name": "Baklava",
+      "description": "Geleneksel Türk baklavası, cevizli ve şerbetli.",
+      "price": 44.90,
+      "image": "https://images.unsplash.com/photo-1607920591413-4ec007e70023?w=400&h=300&fit=crop",
+      "rating": 4.7
+    },
+    {
+      "id": 13,
+      "categoryId": 5,
+      "name": "Kola",
+      "description": "330ml soğuk kola.",
+      "price": 12.90,
+      "image": "https://images.unsplash.com/photo-1554866585-cd94860890b7?w=400&h=300&fit=crop",
+      "rating": 4.2
+    },
+    {
+      "id": 14,
+      "categoryId": 5,
+      "name": "Portakal Suyu",
+      "description": "500ml taze sıkılmış portakal suyu.",
+      "price": 19.90,
+      "image": "https://images.unsplash.com/photo-1613478223719-2ab802602423?q=80&w=1000&auto=format&fit=crop",
+      "rating": 4.5
+    },
+    {
+      "id": 15,
+      "categoryId": 5,
+      "name": "Türk Kahvesi",
+      "description": "Geleneksel Türk kahvesi, lokum ile.",
+      "price": 24.90,
+      "image": "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=400&h=300&fit=crop",
+      "rating": 4.6
+    },
+    {
+      "id": 16,
+      "categoryId": 6,
+      "name": "Serpme Kahvaltı",
+      "description": "Peynir, zeytin, bal, reçel, yumurta, domates, salatalık ve daha fazlası.",
+      "price": 129.90,
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=400&h=300&fit=crop",
+      "rating": 4.8
+    },
+    {
+      "id": 17,
+      "categoryId": 6,
+      "name": "Menemen",
+      "description": "Taze yumurta, domates, biber ve soğan ile hazırlanan geleneksel menemen.",
+      "price": 49.90,
+      "image": "https://images.unsplash.com/photo-1590412200988-a436970781fa?q=80&w=1000&auto=format&fit=crop",
+      "rating": 4.6
+    },
+    {
+      "id": 18,
+      "categoryId": 6,
+      "name": "Pankek",
+      "description": "Ballı, çikolatalı veya meyveli pankek seçenekleri.",
+      "price": 44.90,
+      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?q=80&w=1000&auto=format&fit=crop",
+      "rating": 4.4
+    }
+  ]
+}
+

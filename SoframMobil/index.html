@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Mobil Yemek Sipariş Uygulaması">
+    <title>Sofram Mobil</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <link rel="apple-touch-icon" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#FF6B35">
+</head>
+<body>
+    <!-- Ana Sayfa - Kategoriler -->
+    <div id="home-page" class="page active">
+        <header class="app-header">
+            <h1>🍕 Sofram </h1>
+            <button class="cart-btn" id="cart-icon">
+                🛒 <span id="cart-count">0</span>
+            </button>
+        </header>
+        
+        <div class="search-bar">
+            <input type="text" placeholder="Yemek, restoran ara..." id="search-input">
+        </div>
+        
+        <div class="categories-container">
+            <h2>Kategoriler</h2>
+            <div id="categories-list" class="categories-grid">
+                <!-- Kategoriler buraya yüklenecek -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Ürün Listesi Sayfası -->
+    <div id="products-page" class="page">
+        <header class="app-header">
+            <button class="back-btn" onclick="goBack()">←</button>
+            <h2 id="category-title">Ürünler</h2>
+            <button class="cart-btn" id="cart-icon-products">
+                🛒 <span id="cart-count-products">0</span>
+            </button>
+        </header>
+        
+        <div id="products-list" class="products-grid">
+            <!-- Ürünler buraya yüklenecek -->
+        </div>
+    </div>
+
+    <!-- Ürün Detay Sayfası -->
+    <div id="product-detail-page" class="page">
+        <header class="app-header">
+            <button class="back-btn" onclick="goBack()">←</button>
+            <h2>Ürün Detayı</h2>
+            <div></div>
+        </header>
+        
+        <div id="product-detail" class="product-detail-container">
+            <!-- Ürün detayı buraya yüklenecek -->
+        </div>
+    </div>
+
+    <!-- Sepet Sayfası -->
+    <div id="cart-page" class="page">
+        <header class="app-header">
+            <button class="back-btn" onclick="goBack()">←</button>
+            <h2>Sepetim</h2>
+            <div></div>
+        </header>
+        
+        <div id="cart-items" class="cart-container">
+            <!-- Sepet ürünleri buraya yüklenecek -->
+        </div>
+        
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Toplam:</span>
+                <span id="cart-total-price">0.00 ₺</span>
+            </div>
+            <button class="checkout-btn" id="checkout-btn">Siparişi Tamamla</button>
+        </div>
+    </div>
+
+    <!-- Toast Bildirimi -->
+    <div class="toast"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
